@@ -1,12 +1,12 @@
 import { Suspense } from 'react'
-import MyCoursesPage from '@/page/my-courses'
+import TermsPage from '@/page/terms'
 
-export const metadata = { title: '내 강의실 — EnglishPro' }
+export const metadata = { title: '이용약관 — EnglishPro' }
 
 export default function Page() {
   return (
     <Suspense fallback={<div className="min-h-screen flex items-center justify-center">로딩 중...</div>}>
-      <MyCoursesPage />
+      <TermsPage />
     </Suspense>
   )
 }
