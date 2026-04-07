@@ -549,7 +549,7 @@ export default function AdminDocsPage() {
                 <span className="text-xs text-stone-400">EnglishPro · 관리자</span>
               </div>
               <h1 className="text-2xl font-bold mb-1">관리자 화면 구성서</h1>
-              <p className="text-stone-400 text-sm">Admin Screen Specification</p>
+              <p className="text-stone-400 text-sm">Admin Screen Specification · v1.0 기획서 초안</p>
             </div>
             <div className="text-right">
               <div className="text-3xl font-bold text-[#E8A43A]">{totalScreens}</div>

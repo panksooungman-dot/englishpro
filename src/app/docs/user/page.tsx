@@ -402,7 +402,7 @@ export default function UserDocsPage() {
                 <span className="text-xs text-stone-400">EnglishPro</span>
               </div>
               <h1 className="text-2xl font-bold mb-1">사용자 화면 구성서</h1>
-              <p className="text-stone-400 text-sm">User Screen Specification · v1.0 (의뢰자 제출용 초안)</p>
+              <p className="text-stone-400 text-sm">User Screen Specification · v1.0 기획서 초안</p>
             </div>
             <div className="text-right">
               <div className="text-3xl font-bold text-[#E8A43A]">{totalScreens}</div>
