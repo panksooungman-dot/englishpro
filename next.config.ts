@@ -2,6 +2,7 @@ import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
   reactStrictMode: false,
+  allowedDevOrigins: ['*.e2b.app', 'e2b.app'],
   experimental: {
     serverActions: {
       bodySizeLimit: "100mb", // 기본값 1mb에서 100mb로 증가 (대용량 이미지 업로드 등을 위해)
