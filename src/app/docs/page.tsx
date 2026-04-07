@@ -37,7 +37,7 @@ export default function DocsIndexPage() {
             <div className="mt-3 text-xs text-[#E8A43A] font-semibold">총 24개 화면 →</div>
           </Link>
         </div>
-        <p className="text-xs text-stone-400 mt-6">© 2025 EnglishPro · 기획서 초안</p>
+        <p className="text-xs text-stone-400 mt-6">© 2026 EnglishPro · 기획서 초안</p>
       </div>
     </div>
   )
