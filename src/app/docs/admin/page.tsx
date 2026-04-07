@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import AdminFlows from '../_flows/admin-flows'
 
 const adminMenuTree = [
   {
@@ -628,6 +629,9 @@ export default function AdminDocsPage() {
             </div>
           </div>
         </div>
+
+        {/* ── 화면 흐름도 ── */}
+        <AdminFlows />
 
         {/* ── 화면별 상세 명세 ── */}
         <div className="flex items-center gap-3 mb-5">

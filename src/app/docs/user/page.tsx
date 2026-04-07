@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import UserFlows from '../_flows/user-flows'
 
 const menuTree = [
   {
@@ -496,6 +497,9 @@ export default function UserDocsPage() {
             </div>
           </div>
         </div>
+
+        {/* ── 화면 흐름도 ── */}
+        <UserFlows />
 
         {/* ── 화면별 상세 명세 ── */}
         <div className="flex items-center gap-3 mb-5">
